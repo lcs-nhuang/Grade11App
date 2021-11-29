@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				BB1BC6D5275560C000AE99DB /* NiceReminderApp.swift */,
-				BB1BC6D7275560C000AE99DB /* ContentView.swift */,
+				BB1BC6E4275560E900AE99DB /* Views */,
+				BB1BC6E3275560DD00AE99DB /* Model */,
 				BB1BC6D9275560C700AE99DB /* Assets.xcassets */,
 				BB1BC6DB275560C700AE99DB /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				BB1BC6DC275560C700AE99DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB1BC6E3275560DD00AE99DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB1BC6E4275560E900AE99DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB1BC6D7275560C000AE99DB /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
