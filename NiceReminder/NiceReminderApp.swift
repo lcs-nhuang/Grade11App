@@ -11,7 +11,7 @@ import SwiftUI
 struct NiceReminderApp: App {
     var body: some Scene {
         WindowGroup {
-            ReminderView()
+            TabLandingView()
         }
     }
 }

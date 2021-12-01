@@ -19,14 +19,18 @@ struct ReminderView: View {
                 ClassHeaderView(courseName: "Math",
                                 fromTime: "10:30",
                                 toTime: "12:00")
-                
-//                Spacer()
             }
         }
         .navigationTitle("Today's Work")
-        
-        
-        
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button("New") {}
+            }
+            
+//            ToolbarItem(placement: .bottomBar) {
+//                Button("Filter") {}
+//            }
+        }
         
     }
 }
