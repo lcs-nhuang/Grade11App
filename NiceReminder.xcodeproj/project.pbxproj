@@ -11,11 +11,12 @@
 		BB1BC6D8275560C000AE99DB /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1BC6D7275560C000AE99DB /* ReminderView.swift */; };
 		BB1BC6DA275560C700AE99DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1BC6D9275560C700AE99DB /* Assets.xcassets */; };
 		BB1BC6DD275560C700AE99DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1BC6DC275560C700AE99DB /* Preview Assets.xcassets */; };
-		BB1BC6E62755665900AE99DB /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1BC6E52755665900AE99DB /* ProgressView.swift */; };
 		BB1BC6E82755669D00AE99DB /* RewardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1BC6E72755669D00AE99DB /* RewardVIew.swift */; };
 		BB1BC6EA275566D600AE99DB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1BC6E9275566D600AE99DB /* SettingView.swift */; };
+		BB3C24A1275EF9DA003F9164 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C24A0275EF9DA003F9164 /* ProgressView.swift */; };
 		BB69F8B12756A4DB00550FA9 /* ClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */; };
 		BB69F8B32756A94400550FA9 /* TabLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69F8B22756A94400550FA9 /* TabLandingView.swift */; };
+		BB800745275EA26100AC9453 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB800744275EA26100AC9453 /* CheckBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +25,12 @@
 		BB1BC6D7275560C000AE99DB /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		BB1BC6D9275560C700AE99DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1BC6DC275560C700AE99DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BB1BC6E52755665900AE99DB /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		BB1BC6E72755669D00AE99DB /* RewardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardVIew.swift; sourceTree = "<group>"; };
 		BB1BC6E9275566D600AE99DB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		BB3C24A0275EF9DA003F9164 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassHeaderView.swift; sourceTree = "<group>"; };
 		BB69F8B22756A94400550FA9 /* TabLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLandingView.swift; sourceTree = "<group>"; };
+		BB800744275EA26100AC9453 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				BB1BC6D7275560C000AE99DB /* ReminderView.swift */,
-				BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */,
-				BB1BC6E52755665900AE99DB /* ProgressView.swift */,
+				BB3C24A0275EF9DA003F9164 /* ProgressView.swift */,
 				BB1BC6E72755669D00AE99DB /* RewardVIew.swift */,
 				BB1BC6E9275566D600AE99DB /* SettingView.swift */,
+				BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */,
+				BB800744275EA26100AC9453 /* CheckBoxView.swift */,
 				BB69F8B22756A94400550FA9 /* TabLandingView.swift */,
 			);
 			path = Views;
@@ -171,10 +174,11 @@
 				BB1BC6D8275560C000AE99DB /* ReminderView.swift in Sources */,
 				BB1BC6EA275566D600AE99DB /* SettingView.swift in Sources */,
 				BB1BC6D6275560C000AE99DB /* NiceReminderApp.swift in Sources */,
-				BB1BC6E62755665900AE99DB /* ProgressView.swift in Sources */,
 				BB69F8B12756A4DB00550FA9 /* ClassHeaderView.swift in Sources */,
 				BB69F8B32756A94400550FA9 /* TabLandingView.swift in Sources */,
+				BB3C24A1275EF9DA003F9164 /* ProgressView.swift in Sources */,
 				BB1BC6E82755669D00AE99DB /* RewardVIew.swift in Sources */,
+				BB800745275EA26100AC9453 /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

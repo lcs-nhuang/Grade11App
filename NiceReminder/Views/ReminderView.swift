@@ -15,6 +15,27 @@ struct ReminderView: View {
                 ClassHeaderView(courseName: "Art",
                                 fromTime: "8:00",
                                 toTime: "10:00")
+                    .padding(.top,40)
+                
+                Group{
+                    
+                    HStack{
+                        Text("1. Finish the drawing")
+                        CheckBoxView(checked: true)
+                    }
+                    
+                    HStack{
+                        Text("2. Watch the video")
+                        CheckBoxView(checked: false)
+                    }
+                    
+                    HStack{
+                        Text("3. Write review")
+                        CheckBoxView(checked: false)
+                    }
+                }
+                .padding(.top)
+                .padding(.horizontal)
                 
                 ClassHeaderView(courseName: "Math",
                                 fromTime: "10:30",
@@ -24,12 +45,12 @@ struct ReminderView: View {
         .navigationTitle("Today's Work")
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
-                Button("New") {}
+                Button("Add Courses") {}
             }
             
-//            ToolbarItem(placement: .bottomBar) {
-//                Button("Filter") {}
-//            }
+            //            ToolbarItem(placement: .bottomBar) {
+            //                Button("Filter") {}
+            //            }
         }
         
     }
@@ -38,7 +59,7 @@ struct ReminderView: View {
 struct ReminderView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ReminderView()
+            ReminderView()  
         }
     }
 }

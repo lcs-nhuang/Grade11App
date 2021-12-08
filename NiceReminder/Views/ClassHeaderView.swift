@@ -23,7 +23,7 @@ struct ClassHeaderView: View {
             HStack{
                 
                 Text("\(courseName) (\(fromTime)-\(toTime))")
-                    .font(.headline)
+                    .font(.title3)
                 
                 Button(action: {
                     print("Button was pressed")
@@ -35,10 +35,14 @@ struct ClassHeaderView: View {
                 })
                 
             }
-            .padding(.top,20)
+            
             .padding()
             
             Divider()
+            
+            Text("Homework")
+                .font(.headline)
+                .padding(.horizontal)
         }
     }
 }
