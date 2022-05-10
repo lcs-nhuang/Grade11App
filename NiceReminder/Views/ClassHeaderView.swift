@@ -35,6 +35,18 @@ struct ClassHeaderView: View {
                         .frame(width: 20, height: 20)
                 })
                 
+                Spacer()
+                
+                Button(action: {
+                    print("Button was pressed")
+                }, label: {
+                    Image(systemName: "chevron.down")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 20, height: 20)
+                })
+                
+                
             }
             
             .padding()

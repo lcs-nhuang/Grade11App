@@ -15,6 +15,7 @@ struct ReminderView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
+                
                 ClassHeaderView(courseName: "Art",
                                 fromTime: "8:00",
                                 toTime: "10:00")
@@ -55,7 +56,7 @@ struct ReminderView: View {
                     isPrsented = true
                 }
                 .sheet(isPresented: $isPrsented) {
-                    Text("Yeah!")
+                    AddCourseView { newCourseName in}
                 }
             }
 

@@ -12,6 +12,8 @@ struct AddCourseView: View {
     @Environment(\.presentationMode) var presentationMode
     @State private var newCourseName: String = ""
     
+    var onSaveCourse: (String) -> Void
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
             HStack{
@@ -22,6 +24,7 @@ struct AddCourseView: View {
                 Spacer()
                 
                 Button("Done"){
+                    onSaveCourse(newCourseName)
                     presentationMode.wrappedValue.dismiss()
                 }.disabled(false)
                     
@@ -40,6 +43,6 @@ struct AddCourseView: View {
 
 struct AddCourseView_Previews: PreviewProvider {
     static var previews: some View {
-        AddCourseView()
+        AddCourseView {_ in}
     }
 }
