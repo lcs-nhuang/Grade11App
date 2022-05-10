@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ReminderView: View {
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -21,17 +22,17 @@ struct ReminderView: View {
                     
                     HStack{
                         Text("1. Finish the drawing")
-                        CheckBoxView(checked: true)
+                        
                     }
                     
                     HStack{
                         Text("2. Watch the video")
-                        CheckBoxView(checked: false)
+                        
                     }
                     
                     HStack{
                         Text("3. Write review")
-                        CheckBoxView(checked: false)
+                        
                     }
                 }
                 .padding(.top)
@@ -42,16 +43,20 @@ struct ReminderView: View {
                                 toTime: "12:00")
             }
         }
-        .navigationTitle("Today's Work")
+        
+        
+        .navigationTitle("Today's Tasks")
+        
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
-                Button("Add Courses") {}
+                Button("Add Courses") {
+                    
+                    
+                }
             }
-            
-            //            ToolbarItem(placement: .bottomBar) {
-            //                Button("Filter") {}
-            //            }
+
         }
+        
         
     }
 }

@@ -7,9 +7,17 @@
 
 import SwiftUI
 
+
 struct ProgressView: View {
     var body: some View {
-        ProgressView
+
+        VStack {
+            
+            ProgressView("Time to completion:",
+                         value: 0.5)
+                .padding(.bottom, 20)
+
+        }
 
         
     }

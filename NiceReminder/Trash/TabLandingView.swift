@@ -16,10 +16,12 @@ struct TabLandingView: View {
                         Label("Menu", systemImage: "list.dash")
                     }
                 
-                ProgressView()
+                LineView()
                     .tabItem {
                         Label("Order", systemImage: "square.and.pencil")
                     }
+                
+                
             }
         }
         
