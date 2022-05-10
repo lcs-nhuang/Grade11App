@@ -16,6 +16,7 @@
 		BB69F8B12756A4DB00550FA9 /* ClassHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */; };
 		BB69F8B32756A94400550FA9 /* TabLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB69F8B22756A94400550FA9 /* TabLandingView.swift */; };
 		BB800745275EA26100AC9453 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB800744275EA26100AC9453 /* CheckBoxView.swift */; };
+		BBD456F22829F415000506EF /* AddCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD456F12829F415000506EF /* AddCourseView.swift */; };
 		BBD7871F2767E263004656A3 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD7871E2767E262004656A3 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassHeaderView.swift; sourceTree = "<group>"; };
 		BB69F8B22756A94400550FA9 /* TabLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLandingView.swift; sourceTree = "<group>"; };
 		BB800744275EA26100AC9453 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		BBD456F12829F415000506EF /* AddCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseView.swift; sourceTree = "<group>"; };
 		BBD7871E2767E262004656A3 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			children = (
 				BB1BC6D7275560C000AE99DB /* ReminderView.swift */,
 				BB69F8B02756A4DB00550FA9 /* ClassHeaderView.swift */,
+				BBD456F12829F415000506EF /* AddCourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				BB69F8B32756A94400550FA9 /* TabLandingView.swift in Sources */,
 				BB1BC6E82755669D00AE99DB /* RewardVIew.swift in Sources */,
 				BB800745275EA26100AC9453 /* CheckBoxView.swift in Sources */,
+				BBD456F22829F415000506EF /* AddCourseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

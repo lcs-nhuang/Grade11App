@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ReminderView: View {
     
+    @State private var isPrsented: Bool = false
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
@@ -50,12 +52,15 @@ struct ReminderView: View {
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 Button("Add Courses") {
-                    
-                    
+                    isPrsented = true
+                }
+                .sheet(isPresented: $isPrsented) {
+                    Text("Yeah!")
                 }
             }
 
         }
+        
         
         
     }
